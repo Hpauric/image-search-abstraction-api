@@ -20,18 +20,19 @@
 	<div class="container">
 		<h1 class="display-4">Image Search Abstraction API</h1>
 		<hr>
-		<div class="list-group">
+		
+			<div class="list-group">
 			<a href="#" class="list-group-item active">
-				<h4 class="list-group-item-heading">User Stories</h4>
+				<h4 class="list-group-item-heading">Description</h4>
 			</a>
 			<a href="#" class="list-group-item">
-				<p class="list-group-item-text">1. I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</p>
+				<p class="list-group-item-text">1. This API returns in JSON format the image URLs, alt text and page URLs for a set of images relating to a given search string.</p>
 			</a>
 			<a href="#" class="list-group-item">
-				<p class="list-group-item-text">2. I can paginate through the responses by adding a ?offset=2 parameter to the URL.</p>
+				<p class="list-group-item-text">2. You can paginate through the responses by adding a ?offset=2 parameter to the URL.</p>
 			</a>
 			<a href="#" class="list-group-item">
-				<p class="list-group-item-text">3. I can get a list of the most recently submitted search strings.</p>
+				<p class="list-group-item-text">3. You can get a list of the ten most recently submitted search strings.</p>
 			</a>
 		</div>
 
@@ -40,7 +41,7 @@
 				<h4 class="list-group-item-heading">Instructions</h4>
 			</li>
 			<li href="#" class="list-group-item">
-				<p class="list-group-item-text col-sm-10">Perform a search by accessing <code>https://all-the-images.herokuapp.com/search/&lt;query&gt;</code> with your query at the end.
+				<p class="list-group-item-text col-sm-10">Perform a search with the path <code>https://all-the-images.herokuapp.com/search/&lt;query&gt;</code>, replacing <code>&lt;query&gt;</code> with your search string.
 					<br>Adding <code>?offset=&lt;page-number&gt;</code> will paginate the results, 1 being the default, 2 being the second page, etcetera.
 				</p>
 				<a href="https://all-the-images.herokuapp.com/search/magic">
@@ -48,7 +49,7 @@
 				</a>
 			</li>
 			<li href="#" class="list-group-item">
-				<p class="list-group-item-text col-sm-10">View the past ten terms searched for by access <code>https://all-the-images.herokuapp.com/history</code>
+				<p class="list-group-item-text col-sm-10">View the past ten search terms by visiting <code>https://all-the-images.herokuapp.com/history</code>
 
 				</p>
 				<a href="https://all-the-images.herokuapp.com/history">
